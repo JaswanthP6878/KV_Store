@@ -8,5 +8,5 @@ pub type NodeId = u64;
 openraft::declare_raft_types!(
     pub TypeConfig:
         D = Request,
-        R = Response, 
+        R = Response,
 );
